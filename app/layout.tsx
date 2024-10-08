@@ -19,8 +19,8 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-    title: "Subcontractor DB",
-    description: "Keep track of subcontractor files easily",
+    title: "Safety",
+    description: "Keep track certifications easily",
 };
 
 export default function RootLayout({
@@ -46,7 +46,7 @@ export default function RootLayout({
             <body
                 className={cn(
                     "min-h-screen bg-background font-sans antialiased",
-                    fontSans.variable
+                    fontSans.variable,
                 )}
             >
                 <ThemeProvider

@@ -117,12 +117,12 @@ export function Sidebar({
                             href="/"
                             className="flex items-center gap-2 font-semibold"
                         >
-                            <Image
+                            {/* <Image
                                 src="/AmicoMaster 2023 Horiz.png"
                                 alt={""}
                                 width={100}
                                 height={100}
-                            />
+                            /> */}
                         </Link>
                         <div className="flex gap-2">
                             <Button
