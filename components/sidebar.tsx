@@ -59,13 +59,6 @@ export function Sidebar({
 
     const [navItems, setNavItems] = useState([
         { href: "/home", label: "Home", icon: Home, badge: 0 },
-        { href: "/company", label: "Company", icon: Drill, badge: 0 },
-        {
-            href: "/insurance",
-            label: "Company Insurance",
-            icon: HardHat,
-            badge: 0,
-        },
         { href: "/employee", label: "Employee", icon: Users, badge: 0 },
         { href: "/admin", label: "Admin", icon: SlidersHorizontal, badge: 0 },
     ]);
